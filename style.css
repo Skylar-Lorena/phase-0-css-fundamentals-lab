@@ -3,3 +3,28 @@ body {
   height: 100%;
   margin: 0;
 }
+.header, #featured-property{
+  text-align: center;
+  font-size: small;
+}
+nav a {
+  padding: 10px, 10px;
+  background-color: grey;
+
+}
+featured-property p {
+  width: 800px;
+}
+#details{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#details div{
+  background-color: red;
+  text-align: center;
+  width: 25%;
+
+}
